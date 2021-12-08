@@ -101,6 +101,8 @@ def paladin_select
     puts "please enter a name for your Paladin."
     name = gets.chomp
     puts "Welcome to the Order of the Dragon, #{name}."
+    sleep(3)
+    system "clear"
     tutorial_mission()
   when "2"
     system "clear"
