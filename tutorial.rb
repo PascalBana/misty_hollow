@@ -19,6 +19,7 @@ def tutorial_monologue
   puts""
   puts "The carriage continues into Misty Hollow on it's way to the tavern..."
   sleep(3)
+  leaving_the_carriage()
 end
 
 def leaving_the_carriage
@@ -169,4 +170,3 @@ def convo_carriage_driver
     convo_carriage_driver()
   end
 end
-McBenis
