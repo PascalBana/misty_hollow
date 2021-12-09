@@ -37,5 +37,28 @@ conversation and understanding the long term affects it will have on
 the game as a whole.
 
 ------------------------------------------------------------------------
+totrial muson --
+
+Railroad player to the tabernacle
+
+hes gonna go upstairs learn perception check and movement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------
 Welcome to The Mis
 ching chang chong
