@@ -18,7 +18,7 @@ def intro
     system "clear"
     system "exit"
   elsif answer == "s"
-    leaving_the_carriage()
+    tutorial_monologue()
   else
     puts "Input not recognized."
     intro()
