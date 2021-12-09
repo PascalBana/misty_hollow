@@ -17,7 +17,8 @@ def intro
     sleep(3)
     system "clear"
     system "exit"
-    #restart intro
+  elsif answer == "s"
+    leaving_the_carriage()
   else
     puts "Input not recognized."
     intro()

@@ -119,7 +119,7 @@ end
 def get_stabbed
   puts "You get stabbed and die. Good job fking loser"
   sleep(5)
-  tutorial_speakto_barkeep
+  system "exit"
 end
 
 def examine_misty_step_outer
