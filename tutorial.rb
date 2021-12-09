@@ -46,6 +46,7 @@ def leaving_the_carriage
 end
 
 def tutorial_enter_misty_step
+  weapon = "Glaive"
   system "clear"
   puts "You gather your pack and #{weapon} as you pay the carriage driver"
   puts "his coin, and proceed to head into the Misty Step."
@@ -144,6 +145,8 @@ def convo_carriage_driver
     puts "I wish I could say it's been a pleasure to have you"
     puts "have a good night son..."
     sleep(1.5)
+    puts "press enter to continue"
+    gets
     convo_carriage_driver()
   when 2
     puts "This here is the town of MiStY HoLlOw"
@@ -151,10 +154,14 @@ def convo_carriage_driver
     puts "the folks  in these parts don't have the brightest"
     puts "minds. You best get on inside"
     sleep(2)
+    puts "press enter to continue"
+    gets
     convo_carriage_driver()
   when 3
     puts "Do you think I got all day fucker"
     puts "I'm leaving now you ungrateful piece of shit"
+    puts "press enter to continue"
+    gets
     leaving_the_carriage()
   when 4
     puts "does it look like I live here..."
@@ -162,6 +169,8 @@ def convo_carriage_driver
     puts "best get yourself inside before you"
     puts "slip on your own belt and break your neck"
     sleep(3)
+    puts "press enter to continue"
+    gets
     convo_carriage_driver()
   when 5
     leaving_the_carriage()
